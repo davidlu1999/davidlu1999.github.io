@@ -150,13 +150,6 @@ defaults:
   - scope:
       path: ""
       type: tabs # see `site.collections`
-      try: a
-    values:
-      layout: page
-      permalink: /
-  - scope:
-      path: ""
-      type: tabs # see `site.collections`
     values:
       layout: page
       permalink: /:title/

@@ -1,8 +1,8 @@
 ---
 # the default layout is 'page'
 icon: fas fa-info-circle
-order: 1
-try: a
+order: -100
+permalink: /
 ---
 
 <!-- <img src="../pic/2_inch.jpg" alt="drawing" width="200"/> -->
