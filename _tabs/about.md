@@ -1,12 +1,11 @@
 ---
 # the default layout is 'page'
 icon: fas fa-info-circle
-order: 4
+order: 1
+try: a
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
-<img src="../pic/2_inch.jpg" alt="drawing" width="200"/>
+<!-- <img src="../pic/2_inch.jpg" alt="drawing" width="200"/> -->
 # Education:
 B.S.,  in Department of Electrical Engineering, 2018, National Taiwan University
 
