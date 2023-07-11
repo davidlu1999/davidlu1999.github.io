@@ -2,7 +2,7 @@
 # the default layout is 'page'
 icon: fas fa-info-circle
 order: -100
-permalink: /
+# permalink: /
 ---
 
 <!-- <img src="../pic/2_inch.jpg" alt="drawing" width="200"/> -->
