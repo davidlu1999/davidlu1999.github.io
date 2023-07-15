@@ -50,6 +50,7 @@ $accent-color: #ffa107;
 @mixin custom-dark {
 	a {
 		color: var(--heading-color);
+
 		:hover {
 			color: $accent-color;
 		}
@@ -94,7 +95,7 @@ html {
 .site-title {
 	a {
 		color: var(--heading-color) !important;
-
+		// color:blue;
 		&:hover {
 			color: red !important;
 		}
@@ -112,7 +113,8 @@ html {
 	}
 
 	h2 {
-		color: $accent-color;
+		// color: $accent-color;
+		color: #1343a9;
 	}
 
 	a {
