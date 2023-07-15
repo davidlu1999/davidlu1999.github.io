@@ -6,7 +6,7 @@ tags:  [Accelerator]     # TAG names should always be lowercase
 ---
 
 # Introduction:
-![About me picture](../pic/genome_process.PNG)
+![About me picture](../pic/genome_process.png)
 
 Genomic sequence analysis has contributed significantly  to  the  ﬁelds  of  medicine  and  science,  yet  it  remains constrained  by  computational  capabilities  and  memory  band- width. The primary bottleneck in this process is the approximate string  matching  (ASM)  during  read  mapping,  which  involves handling vast amounts of data. 
 
@@ -20,4 +20,4 @@ accelerators  to  achieve  higher  parallelism.
 We suspect that the maximum error tolerance used in the Bitap algorithm may be too high for efﬁcient  read  mapping.  By  adjusting  the  maximum  error tolerance, we can potentially reduce the computation workload required for read mapping, thereby improving the efﬁciency of read mapping for large-scale genomic data sets.
 
 # Hardware Design
-![About me picture](../pic/reram_hardware.PNG)
+![About me picture](../pic/reram_hardware.png)

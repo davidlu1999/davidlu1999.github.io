@@ -84,7 +84,7 @@ Multiply the energy spectrum energy by a set of 20 triangular bandpass filters t
 
 Different energy distributions can represent different speech sounds. characteristic. So after multiplying the Hamming window, each sound frame must go through FFT again to get the energy distribution on the spectrum.
 <br>
-<img src="../pic/mel_10.png" alt="r22sdf">
+<img src="../pic/mel_10.PNG" alt="r22sdf">
 
 <br>
 Mel Filter Circuit:
