@@ -4,7 +4,9 @@ date: 2022-1-24 09:52:00 +0800
 categories: [Circuit Design, Speech]
 tags:  [Accelerator]     # TAG names should always be lowercase
 ---
-
+<span style="color:orange; font-size: 50px;">Overview<br></span>
+The keyword spotting accelerator can be divided into two parts: MFCC feature extraction and neural network analysis. The final output of the accelerator represents the determined keyword based on these two processes.
+<br>
 <span style="color:orange; font-size: 35px;">MFCC Feature Extraction Circuit<br></span>
 The MFCC (Mel Frequency Cepstral Coefficients) feature extraction circuit can extract relevant features from voice clips. Using these specific techniques, including Pre-emphasis, Framing, Hamming Window, R2^2SDF (Radix-2^2 single-path delay feedback), and Mel Filter, the feature extraction circuit can effectively analyze audio signals.
 <details>
@@ -152,7 +154,9 @@ Take the absolute value of the FFT output and pass it through the mel filter -->
  
 While standard convolution performs the channelwise and spatial-wise computation in one step, Depthwise Separable Convolution splits the computation into two steps: depthwise convolution applies a single convolutional filter per each input channel and pointwise convolution is used to create a linear combination of the output of the depthwise convolution. [2] -->
 
+
 <span style="color:orange; font-size: 35px;">Neural Network Circuit<br></span>
+The weights and biases of the neural network are stored in Weight_ROM and Bias_ROM, respectively. After extracting the MFCC features, they are fed into the register and multiplied by the corresponding weights from Weight_ROM. The resulting values are then accumulated with the previous product obtained from the multiplication. The accumulated value is then added to the bias from Bias_ROM. The output represents the probabilities of ten keywords.
 ![About me picture](../pic/acc.PNG)
 
 Reference

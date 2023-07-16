@@ -50,7 +50,7 @@ $accent-color: #ffa107;
 @mixin custom-dark {
 	a {
 		color: var(--heading-color);
-
+		
 		:hover {
 			color: $accent-color;
 		}

@@ -149,7 +149,7 @@
 }
 
 @mixin label($font-size: 1rem, $font-weight: 600, $color: var(--label-color)) {
-  color: orange;
+  color: rgb(216, 155, 41);
   font-size: $font-size;
   font-weight: $font-weight;
 }

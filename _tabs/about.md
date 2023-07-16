@@ -10,9 +10,9 @@ order: -100
  <span style="color:orange; font-size: 30px;">Education:<br></span>
 <!-- ## Education: -->
 
-MEng., Electrical and Couputer Engineering, Cornell University, United States (2023/8-Present)
+## MEng., Electrical and Couputer Engineering, Cornell University, United States (2023/8-Present)
 
-B.S., Electrical Engineering, National Taiwan University, Taiwan (2018/9-2022/8)
+## B.S., Electrical Engineering, National Taiwan University, Taiwan (2018/9-2022/8)
 
  <span style="color:orange; font-size: 30px;">About me:<br></span>
 
